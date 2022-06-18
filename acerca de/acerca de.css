@@ -1,0 +1,19 @@
+*
+{
+	padding: 0;
+	margin: auto;
+}
+
+
+
+body
+{
+	font-family: cursive;
+	background-color: #4A64BE;
+}
+
+a 
+{
+	background-color: blue;
+	font-size: 33px;
+}

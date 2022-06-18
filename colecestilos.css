@@ -1,0 +1,27 @@
+*
+{
+	padding: 0;
+	margin: auto;
+}
+
+img
+{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
+body
+{
+	background-color: lightblue;
+}
+.modal-descripcion
+{
+	font-family: curier;
+	color: red;
+}
+a
+{
+	background-color: #187D8F;
+	font-size: 30px;
+     
+}

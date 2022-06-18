@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tallas de tus tenis favoritos</title>
+</head>
+<body>
+	<header>escoge tres tallas de tenis</header>
+
+	<script type="text/javascript">
+		var num1;
+		var num2;
+		var num3;
+
+		num1=prompt("escriba una talla de su preferencia");
+		num2=prompt("Escriba una opcion secundaria");
+		num3=prompt("Escriba una tercera opcion");
+
+		document.write("<h2>Tu primera opcion de talla es "+num1+"</h2>");
+		document.write("<h2>Tu segunda opcion de talla es "+num2+"</h2>");
+		document.write("<h2>Tu tercera opcion de talla es "+num3+"</h2>");
+
+		if (num1>=num2 && num1>=num3) 
+		{
+			me=num1;
+		}
+
+		if (num2>=num1 && num2>=num3) 
+		{
+			me=num2;
+		}
+
+		if (num3>=num1 && num3>=num2) 
+		{
+			me=num3;
+		}
+
+		document.write("<h2>la talla disponible que tenemos es :"+me+"</h2>");
+	</script>
+</body>
+</html>
